@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot UI</title>
+    <link rel="stylesheet" href="chatBot.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="chatBox">
+            <h1 class="headText">ChatBot UI</h1>
+            <div class="text">
+                <input type="text" id="message">
+                <img src="./images/sendIcon.png" alt="send icon" id="send">
+            </div>
+        </div>
+        <div class="chatsNstuff">
+            <div class="btns">
+                <img src="./images/plus.png" alt="add chat" id="addBtn"></img>
+                <h1>New chat</h1>
+            </div>
+            <hr>
+            <div id="chatsNames"></div>
+        </div>
+    </div>
+    <div id="renamePopup">
+        <div id="popupContent">
+        <label>Name:</label>
+        <input type="text" id="renameInput">
+        <button id="renameBtn">Rename</button>
+    </div>
+    </div>
+    <script src="chatBot.js"></script>
+</body>
+
+</html>
